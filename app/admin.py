@@ -1,0 +1,10 @@
+from django.contrib import admin
+from app.models import *
+
+# Register your models here.
+
+admin.site.register(TOPIC)
+
+admin.site.register(WEBPAGE)
+
+admin.site.register(ACCESSRECORDS)
